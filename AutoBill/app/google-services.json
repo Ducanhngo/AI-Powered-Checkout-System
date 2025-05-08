@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "138078759671",
+    "firebase_url": "https://esp32-fire-alarm-a8fc5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "esp32-fire-alarm-a8fc5",
+    "storage_bucket": "esp32-fire-alarm-a8fc5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138078759671:android:ee6e7797711bcb1b9681f2",
+        "android_client_info": {
+          "package_name": "com.example.autobill"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Ns35KllvNn92iloL8y33rclcHyUojGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
