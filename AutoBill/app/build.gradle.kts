@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation("com.google.firebase:firebase-auth:22.3.1")
     implementation(platform("com.google.firebase:firebase-bom:32.8.0"))
     implementation("com.google.firebase:firebase-analytics-ktx")
     implementation("androidx.compose.material3:material3:1.2.1")
@@ -42,6 +43,7 @@ dependencies {
 
     // Added this line for CardView
     implementation("androidx.cardview:cardview:1.0.0")
+    implementation("com.google.firebase:firebase-database:21.0.0")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
