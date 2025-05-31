@@ -72,6 +72,18 @@
                 app:cornerRadius ="20dp"/>
 
             <TextView
+                android:id="@+id/tvForgotPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity=""
+                android:text="Forgot Password?"
+                android:textColor="@color/design_default_color_primary" />
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/signupRedirectText"
