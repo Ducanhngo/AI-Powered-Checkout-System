@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/pagebkg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/lavender_border"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header_title"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Select a user to transfer money"
+        android:textColor="@color/lavender"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+<!--// lấy thông tin từ firebase -->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/send_to_users_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/activity_users_information" />
+    </LinearLayout>
+
+</LinearLayout>
