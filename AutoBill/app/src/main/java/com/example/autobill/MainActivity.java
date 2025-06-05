@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Chuyển đến Transaction History
-                Intent intent = new Intent(MainActivity.this, TransactionsHistory.class);
+                Intent intent = new Intent(MainActivity.this, com.example.autobill.db.TransactionHistory.class);
                 startActivity(intent);
             }
         });
