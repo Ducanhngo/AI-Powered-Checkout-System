@@ -1,0 +1,48 @@
+
+<resources>
+    <string name="app_name">Spending Manager</string>
+    <!-- Add other string resources used in layouts and code -->
+    <string name="login_title">Login</string>
+    <string name="signup_title">Sign Up</string>
+    <string name="forgot_password_title">Reset Password</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="reset_password_button">Send Reset Email</string>
+    <string name="forgot_password_link">Forgot Password?</string>
+    <string name="signup_link">Don\\'t have an account? Sign Up</string>
+    <string name="login_link">Already have an account? Login</string>
+    <string name="back_to_login_link">Back to Login</string>
+    <string name="dashboard_title">Spending Dashboard</string>
+    <string name="total_spending_label">Total Spending:</string>
+    <string name="purchase_history_label">Purchase History</string>
+    <string name="simulate_purchase_button">Simulate Purchase</string>
+    <string name="logout_button">Logout</string>
+    <string name="confirm_purchase_title">Confirm Purchase</string>
+    <string name="simulate_rfid_button">Simulate RFID Scan (Tap Card)</string>
+    <string name="code_instruction">A confirmation code has been sent (simulated). Enter it below:</string>
+    <string name="confirmation_code_hint">Confirmation Code</string>
+    <string name="confirm_purchase_button">Confirm Purchase</string>
+    <string name="purchase_success_message">Purchase Successful! Locker Opened (Simulated).</string>
+    <string name="back_to_dashboard_button">Back to Dashboard</string>
+
+    <!-- Error Messages -->
+    <string name="error_email_required">Email is required</string>
+    <string name="error_invalid_email">Please enter a valid email</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_confirm_password_required">Confirm Password is required</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_code_required">Code is required</string>
+    <string name="error_invalid_code">Invalid confirmation code</string>
+    <string name="auth_failed_default">Authentication failed. Please try again.</string>
+    <string name="reset_email_sent">Password reset email sent. Check your inbox.</string>
+    <string name="reset_email_failed">Failed to send reset email. Please try again.</string>
+    <string name="login_successful">Login successful.</string>
+    <string name="signup_successful">Sign up successful.</string>
+    <string name="logout_successful">Logged out successfully.</string>
+
+</resources>
+
